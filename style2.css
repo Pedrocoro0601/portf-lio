@@ -273,14 +273,7 @@ main {
 
 
 
-.homem-aranha{
-    position: absolute;
-    width: 700px;
-    left: 96px;
-    margin-top: 9px;
-    z-index: 999;
-    
-}
+
 
 .pedro{
     position: absolute;
@@ -328,23 +321,9 @@ main {
     margin-top: 540px;
 }
 
-.iroman{
-    position: absolute;
-    width: 700px;
-    left: 1150px;
-    margin-top: 458px;
-    z-index: 999;
-    
-}
 
-.pantera{
-    position: absolute;
-    width: 750px;
-    left: 0px;
-    margin-top: 700px;
-    z-index: 999;
-    
-}
+
+
 
 .textoformacao{
     position: absolute;
@@ -356,21 +335,21 @@ main {
     position: absolute;
     left: 1520px;
     margin-top: -129px;
-    z-index: 999;
+   
 }
 
 .html{
     position: absolute;
     left: 1300px;
     margin-top: -128px;
-    z-index: 999;
+    
 }
 
 .java{
     position: absolute;
     left: 1100px;
     margin-top: -135px;
-    z-index: 999;
+    
 }
 
 .textopro{
@@ -397,8 +376,10 @@ main {
 
 .pool{
     position: absolute;
-    width: 200px;
+    width: 300px;
     margin-top: 2435px;
+    left: 30px;
+
 }
 
 .cursolivre{
@@ -448,4 +429,110 @@ main {
     left: 140px;
     
 
+}
+
+
+.mensagem{
+    position: absolute;
+    width: 100px;
+    margin-top: 2340px;
+    left: 100px;
+    
+}
+
+.naotoqueaqui{
+    position: absolute;
+    width: 100px;
+    margin-top: 2250px;
+    left: 89px;
+}
+
+
+.homem-aranha{
+    position: absolute;
+    width: 700px;
+    left: 96px;
+    margin-top: 9px;
+    z-index: 999;  
+}
+
+.spider{
+    position: absolute;
+    width: 700px;
+    left: 96px;
+    margin-top: 9px;
+    animation: spider linear 2s;
+    z-index: 999;
+}
+
+@keyframes spider{
+    0%{
+        margin-top: -1200px;
+    }
+    100%{
+        margin-top: calc(100vh - 960px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.iroman{
+    position: absolute;
+    width: 700px;
+    margin-top: 458px;
+    z-index: 999;
+    right: 0px;
+}
+
+
+.homemdeferro{
+    animation: homemdeferro linear 2s;
+    z-index: 999;
+}
+
+@keyframes homemdeferro{
+    0%{
+        right: -700px;
+    }
+    100%{
+        right: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.pantera{
+    position: absolute;
+    width: 750px;
+    margin-top: -300px;
+    z-index: 999;
+    left: 0px;
+}
+
+.panteranegra{
+    animation: panteranegra linear 2s;
+    z-index: 999;
+}
+
+@keyframes panteranegra{
+    0%{
+        left: -700px;
+    }
+    100%{
+        left: 0px;
+    }
 }
