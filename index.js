@@ -1,4 +1,4 @@
-
+/*
 var formacao = document.getElementById("formacao")
 var iron = document.getElementById("iron")
 var panteranegra = document.getElementById("panteranegra")
@@ -10,3 +10,4 @@ document.addEventListener('scroll', () => {
         }, 2000)
         
 })
+*/
