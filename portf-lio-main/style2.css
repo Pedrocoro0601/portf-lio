@@ -1,0 +1,2188 @@
+/* RESETS */
+* {
+    scroll-behavior: smooth !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F9F9;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+/* CLASSE UTILITARIA PARA TER MARGIN AUTO */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+/* HEADER */
+.header-bg{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px; 
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.lista-links {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+
+
+
+
+/* MAIN */
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.titulo-nome {
+    font-size: 64px;
+    color: #000000;
+    line-height: 52px;
+    font-weight: 700;
+}
+
+.subtitulo-nome {
+    font-size: 36px;
+    color: #5A5A5A;
+    font-weight: 500;
+}
+
+
+
+
+
+/* FORMAÇÃO */
+.formacao-bg {
+    background-color: #181818;
+}
+
+.formacao {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    height: 100vh;
+}
+
+.cursos-lista {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: flex-start;
+    margin-top: 70px;
+}
+
+.cursos-lista li {
+    background-color: #0B0B0B;
+    display: flex;
+    flex-direction: column;
+    padding: 14px 18px;
+    border-radius: 6px;
+    font-weight: 700;
+    position: relative;
+}
+
+.cursos-lista span {
+    font-size: 14px;
+    color: #646464;
+    text-transform: uppercase;
+}
+
+.cursos-lista p {
+    color: #E7E7E7;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.cursos-lista .detalhe {
+    background-color: #67E31B;
+    width: 4px;
+    height: 48px;
+    position: absolute;
+    left: -6px;
+}
+
+.idiomas {
+    position: relative;
+    margin-top: 80px;
+}
+
+.idiomas .detalhe {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #67E31B;
+    top: 18px;
+    left: -12px;
+}
+
+.idiomas li {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+}
+
+
+
+
+
+/* ´PROJETOS */
+.projetos-bg {
+    background-color: #1B1B1B;
+}
+
+.projetos {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.projetos ul {
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+}
+
+.projetos img{
+    border: 12px solid #262626;
+    border-radius: 3px;
+    width: 300px;
+}
+
+.projetos span{
+    margin-top: 12px;
+    display: inline-block;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+
+
+
+/* FOOTER */
+.footer-bg {
+    background-color: #181818;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 80px;
+    padding-bottom: 12px;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.footer h2 {
+    color: #737373;
+    font-size: 24px;
+    font-weight: 400;
+    flex-grow: 1;
+}
+
+.footer ul {
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer span {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+
+
+
+/* CLASSES UTILITÁRIAS PARA MUDAR A COR E TAMANHO DO TEXTO */
+.texto-cinza-m {
+    color: #737373;
+    font-weight: 500;
+    font-size: 24px;
+    max-width: 40ch;
+    line-height: 44px;
+}
+
+.texto-cinza-m-regular {
+    color: #535353;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.texto-branco-m {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.titulo-grande {
+    font-size: 120px;
+    color: #4E4E4E;
+    text-transform: uppercase;
+}
+
+.titulo-break {
+    word-break: break-all;
+    max-width: 3.5ch;
+}
+
+
+
+
+
+.pedro{
+    position: absolute;
+    width: 300px;
+    margin-top: 300px;
+    left: 1000px;
+}
+
+.henrique{
+    position: absolute;
+    width: 450px;
+    margin-top: 365px;
+    left: 1000px;
+}
+
+.frontend{
+    position: absolute;
+    width: 650px;
+    margin-top: 440px;
+    left: 1000px;
+}
+
+.escudo{
+    position: absolute;
+    left: 1550px;
+    width: 80px;  
+}
+
+.for{
+    position: absolute;
+    left: 400px;
+    margin-top: 150px;
+
+}
+
+.ma{
+    position: absolute;
+    left: 400px;
+    margin-top: 320px;
+}
+
+.cao{
+    position: absolute;
+    left: 400px;
+    margin-top: 540px;
+}
+
+
+
+
+
+.textoformacao{
+    position: absolute;
+    left: 1000px;
+    margin-top: 100px;
+}
+
+.css{
+    position: absolute;
+    left: 1520px;
+    margin-top: -129px;
+   
+}
+
+.html{
+    position: absolute;
+    left: 1300px;
+    margin-top: -128px;
+    
+}
+
+.java{
+    position: absolute;
+    left: 1100px;
+    margin-top: -135px;
+    
+}
+
+.textopro{
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    left: 700px;
+    margin-top: 20px;
+}
+
+.textoabaixoprojeto{
+    position: absolute;
+    left: 900px;
+    margin-top: 350px;
+}
+
+.hulk{
+    position: absolute;
+    width: 750px;
+    left: 1105px;
+    margin-top: 1833px;
+
+}
+
+.pool{
+    position: absolute;
+    width: 300px;
+    margin-top: 2435px;
+    left: 30px;
+
+}
+
+.cursolivre{
+    position: absolute;
+    left: 1110px;
+    margin-top: 400px;
+}
+
+.idiomass{
+    position: absolute;
+    left: 1020px;
+    margin-top: 750px;
+}
+
+.sitelista{
+    position: absolute;
+    width: 550px;
+    left: 80px;
+    margin-top: 500px;
+}
+
+.sitesenac{
+    position: absolute;
+    width: 550px;
+    left: 670px;
+    margin-top: 500px;
+}
+
+.sitepessoal{
+    position: absolute;
+    width: 550px;
+    left: 1257px;
+    margin-top: 500px;
+}
+
+.textofooter{
+    width: 650px;
+    position: relative;
+    left: 10px;
+    
+}
+
+.hallo{
+    position: absolute;
+    margin-top: 1000px;
+    width: 270px;
+    left: 140px;
+}
+
+
+.mensagem{
+    position: absolute;
+    width: 100px;
+    margin-top: 2340px;
+    left: 100px;
+    
+}
+
+.naotoqueaqui{
+    position: absolute;
+    width: 100px;
+    margin-top: 2250px;
+    left: 89px;
+}
+
+
+.homem-aranha{
+    position: absolute;
+    width: 700px;
+    left: 96px;
+    margin-top: 9px;
+    z-index: 999;  
+}
+
+.spider{
+    position: absolute;
+    width: 700px;
+    left: 96px;
+    margin-top: 9px;
+    animation: spider linear 2s;
+    z-index: 999;
+}
+
+@keyframes spider{
+    0%{
+        margin-top: -1200px;
+    }
+    100%{
+        margin-top: calc(100vh - 960px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.iroman{
+    position: absolute;
+    width: 700px;
+    margin-top: 458px;
+    z-index: 999;
+    right: 0px;
+}
+
+
+.homemdeferro{
+    animation: homemdeferro linear 2s;
+    z-index: 999;
+}
+
+@keyframes homemdeferro{
+    0%{
+        right: -700px;
+    }
+    100%{
+        right: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.pantera{
+    position: absolute;
+    width: 750px;
+    margin-top: -300px;
+    z-index: 999;
+    left: 0px;
+}
+
+.panteranegra{
+    animation: panteranegra linear 2s;
+    z-index: 999;
+}
+
+@keyframes panteranegra{
+    0%{
+        left: -700px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+
+
+
+
+/* RESPONSIVIDADE */
+
+
+@media screen and (max-width: 851px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 15px;
+        height: 80px; 
+    }
+
+    .header-bg{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        background-color: white;
+    }
+
+    .lista-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-right: 35px;
+        gap: 5px;
+        font-size: 15px;
+        align-items: center;
+    }
+
+    main {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .homem-aranha{
+        position: absolute;
+        width: 200px;
+        left: 35px;
+        margin-top: 9px;
+        z-index: 999;  
+    }
+
+    .pedro{
+        position: absolute;
+        width: 250px;
+        margin-top: 350px;
+        left: 80px;
+    }
+    
+    .henrique{
+        position: absolute;
+        width: 350px;
+        margin-top: 400px;
+        left: 30px;
+    }
+    
+    .frontend{
+        position: absolute;
+        width: 340px;
+        margin-top: 465px;
+        left: 32px;
+    }
+
+    .css{
+        position: absolute;
+        left: 20px;
+        margin-top: -120px;
+       
+    }
+    
+    .html{
+        position: absolute;
+        left: 125px;
+        margin-top: -120px;
+        
+    }
+    
+    .java{
+        position: absolute;
+        left: 250px;
+        margin-top: -128px;
+        
+    }
+      
+    .hallo{
+        width: 0px;
+        
+    }
+    
+    .for{
+        position: absolute;
+        left: 50px;
+        margin-top: 80px;
+        width: 120px;
+    
+    }
+    
+    .ma{
+        position: absolute;
+        left: 50px;
+        margin-top: 162px;
+        width: 120px;
+    }
+    
+    .cao{
+        position: absolute;
+        left: 50px;
+        margin-top: 264px;
+        width: 120px;
+    }
+
+    .iroman{
+        position: absolute;
+        width: 225px;
+        margin-top: 690px;
+        z-index: 999;
+        right: 0px;
+    }
+
+    .textoformacao{
+        position: absolute;
+        left: 20px;
+        width: 350px;
+        margin-top: 430px;
+    }
+
+    .cursolivre{
+        position: absolute;
+        left: 100px;
+        width: 180px;
+        margin-top: 600px;
+    }
+    
+    .idiomass{
+        position: absolute;
+        left: 200px;
+        margin-top: 150px;
+
+    }
+
+    .pantera{
+        position: absolute;
+        width: 180px;
+        margin-top: -80px;
+        z-index: 999;
+        left: 0px;
+    }
+
+    .textopro{
+        position: absolute;
+        width: 205px;
+        height: 90px;
+        left: 180px;
+        margin-top: 10px;
+    }
+    
+    .textoabaixoprojeto{
+        position: absolute;
+        left: 50px;
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    .sitelista{
+        position: absolute;
+        width: 250px;
+        left: 80px;
+        margin-top: 200px;
+    }
+    
+    .sitesenac{
+        position: absolute;
+        width: 250px;
+        left: 80px;
+        margin-top: 420px;
+    }
+    
+    .sitepessoal{
+        position: absolute;
+        width: 250px;
+        left: 80px;
+        margin-top: 640px;
+    }
+
+    .hulk{
+        position: absolute;
+        width: 150px;
+        left: 244px;
+        margin-top: 1840px;
+    
+    }
+    
+    .pool{
+        position: absolute;
+        width: 200px;
+        margin-top: 1920px;
+        left: 30px;
+    
+    }
+
+    .textofooter{
+        width: 500px;
+        position: relative;
+        margin-top: -70px;
+        left: 90px;
+        
+    }
+
+    .mensagem{
+        position: absolute;
+        width: 50px;
+        left: 70px;
+        margin-top: 1875px;  
+    }
+    
+    .naotoqueaqui{
+        position: absolute;
+        width: 60px;
+        margin-top: 1820px;
+        left: 59px;
+    }
+
+    
+    
+}
+
+
+
+
+@media screen and (max-width: 667px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 15px;
+        height: 80px; 
+    }
+
+    .header-bg{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        background-color: white;
+    }
+
+    .lista-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 300px;
+        margin-top: -58px;
+        gap: 5px;
+        font-size: 11px;
+        align-items: center;
+    }
+
+    main {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .homem-aranha{
+        position: absolute;
+        width: 200px;
+        left: 35px;
+        margin-top: 9px;
+        z-index: 999;  
+    }
+
+    .pedro{
+        position: absolute;
+        width: 240px;
+        margin-top: 350px;
+        left: 80px;
+    }
+    
+    .henrique{
+        position: absolute;
+        width: 330px;
+        margin-top: 400px;
+        left: 30px;
+    }
+    
+    .frontend{
+        position: absolute;
+        width: 300px;
+        margin-top: 465px;
+        left: 45px;
+    }
+
+    .css{
+        position: absolute;
+        left: 35px;
+        margin-top: -85px;
+        width: 75px;
+       
+    }
+    
+    .html{
+        position: absolute;
+        left: 136px;
+        margin-top: -85px;
+        width: 110px;
+        
+    }
+    
+    .java{
+        position: absolute;
+        left: 250px;
+        margin-top: -90px;
+        width: 118px;
+        
+    }
+      
+    .hallo{
+        width: 0px;
+        
+    }
+    
+    .for{
+        position: absolute;
+        left: 50px;
+        margin-top: 80px;
+        width: 120px;
+    
+    }
+    
+    .ma{
+        position: absolute;
+        left: 50px;
+        margin-top: 162px;
+        width: 120px;
+    }
+    
+    .cao{
+        position: absolute;
+        left: 50px;
+        margin-top: 264px;
+        width: 120px;
+    }
+
+    .iroman{
+        position: absolute;
+        width: 200px;
+        margin-top: 520px;
+        z-index: 999;
+        right: 0px;
+    }
+
+    .textoformacao{
+        position: absolute;
+        left: 70px;
+        width: 250px;
+        margin-top: 400px;
+    }
+
+    .cursolivre{
+        position: absolute;
+        left: 100px;
+        width: 110px;
+        margin-top: 500px;
+    }
+    
+    .idiomass{
+        position: absolute;
+        left: 200px;
+        margin-top: 150px;
+        width: 150px;
+
+    }
+
+    .pantera{
+        position: absolute;
+        width: 180px;
+        margin-top: -80px;
+        z-index: 999;
+        left: 0px;
+    }
+
+    .textopro{
+        position: absolute;
+        width: 205px;
+        height: 90px;
+        left: 155px;
+        margin-top: 10px;
+    }
+    
+    .textoabaixoprojeto{
+        position: absolute;
+        left: 50px;
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    .sitelista{
+        position: absolute;
+        width: 180px;
+        left: 100px;
+        margin-top: 180px;
+    }
+    
+    .sitesenac{
+        position: absolute;
+        width: 180px;
+        left: 100px;
+        margin-top: 330px;
+    }
+    
+    .sitepessoal{
+        position: absolute;
+        width: 180px;
+        left: 100px;
+        margin-top: 480px;
+    }
+
+    .hulk{
+        position: absolute;
+        width: 150px;
+        left: 210px;
+        margin-top: 1470px;
+    
+    }
+    
+    .pool{
+        position: absolute;
+        width: 180px;
+        margin-top: 1560px;
+        left: 20px;
+    
+    }
+
+    .textofooter{
+        width: 500px;
+        position: relative;
+        margin-top: -70px;
+        left: 90px;
+        
+    }
+
+    .mensagem{
+        position: absolute;
+        width: 50px;
+        left: 70px;
+        margin-top: 1510px;  
+    }
+    
+    .naotoqueaqui{
+        position: absolute;
+        width: 60px;
+        margin-top: 1450px;
+        left: 59px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 896px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 15px;
+        height: 80px; 
+    }
+
+    .header-bg{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        background-color: white;
+    }
+
+    .lista-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 310px;
+        margin-top: -58px;
+        gap: 5px;
+        font-size: 15px;
+        align-items: center;
+    }
+
+    main {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .homem-aranha{
+        position: absolute;
+        width: 200px;
+        left: 35px;
+        margin-top: 9px;
+        z-index: 999;  
+    }
+
+    .pedro{
+        position: absolute;
+        width: 240px;
+        margin-top: 350px;
+        left: 80px;
+    }
+    
+    .henrique{
+        position: absolute;
+        width: 330px;
+        margin-top: 400px;
+        left: 30px;
+    }
+    
+    .frontend{
+        position: absolute;
+        width: 300px;
+        margin-top: 465px;
+        left: 45px;
+    }
+
+    .css{
+        position: absolute;
+        left: 35px;
+        margin-top: -85px;
+        width: 75px;
+       
+    }
+    
+    .html{
+        position: absolute;
+        left: 136px;
+        margin-top: -85px;
+        width: 110px;
+        
+    }
+    
+    .java{
+        position: absolute;
+        left: 250px;
+        margin-top: -90px;
+        width: 118px;
+        
+    }
+      
+    .hallo{
+        width: 0px;
+        
+    }
+    
+    .for{
+        position: absolute;
+        left: 50px;
+        margin-top: 80px;
+        width: 120px;
+    
+    }
+    
+    .ma{
+        position: absolute;
+        left: 50px;
+        margin-top: 162px;
+        width: 120px;
+    }
+    
+    .cao{
+        position: absolute;
+        left: 50px;
+        margin-top: 264px;
+        width: 120px;
+    }
+
+    .iroman{
+        position: absolute;
+        width: 300px;
+        margin-top: 675px;
+        z-index: 999;
+        right: 0px;
+    }
+
+    .textoformacao{
+        position: absolute;
+        left: 45px;
+        width: 340px;
+        margin-top: 400px;
+    }
+
+    .cursolivre{
+        position: absolute;
+        left: 70px;
+        width: 180px;
+        margin-top: 580px;
+    }
+    
+    .idiomass{
+        position: absolute;
+        left: 200px;
+        margin-top: 150px;
+        width: 150px;
+
+    }
+
+    .pantera{
+        position: absolute;
+        width: 180px;
+        margin-top: -80px;
+        z-index: 999;
+        left: 0px;
+    }
+
+    .textopro{
+        position: absolute;
+        width: 248px;
+        height: 90px;
+        left: 155px;
+        margin-top: 10px;
+    }
+    
+    .textoabaixoprojeto{
+        position: absolute;
+        left: 50px;
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    .sitelista{
+        position: absolute;
+        width: 280px;
+        left: 50px;
+        margin-top: 220px;
+    }
+    
+    .sitesenac{
+        position: absolute;
+        width: 280px;
+        left: 50px;
+        margin-top: 450px;
+    }
+    
+    .sitepessoal{
+        position: absolute;
+        width: 280px;
+        left: 50px;
+        margin-top: 680px;
+    }
+
+    .hulk{
+        position: absolute;
+        width: 150px;
+        left: 250px;
+        margin-top: 1940px;
+    
+    }
+    
+    .pool{
+        position: absolute;
+        width: 180px;
+        margin-top: 2028px;
+        left: 20px;
+    
+    }
+
+    .textofooter{
+        width: 500px;
+        position: relative;
+        margin-top: -70px;
+        left: 90px;
+        
+    }
+
+    .mensagem{
+        position: absolute;
+        width: 50px;
+        left: 70px;
+        margin-top: 1980px;  
+    }
+    
+    .naotoqueaqui{
+        position: absolute;
+        width: 60px;
+        margin-top: 1920px;
+        left: 59px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 844px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 15px;
+        height: 80px; 
+    }
+
+    .header-bg{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        background-color: white;
+    }
+
+    .lista-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 310px;
+        margin-top: -58px;
+        gap: 5px;
+        font-size: 12px;
+        align-items: center;
+    }
+
+    main {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .homem-aranha{
+        position: absolute;
+        width: 200px;
+        left: 35px;
+        margin-top: 9px;
+        z-index: 999;  
+    }
+
+    .pedro{
+        position: absolute;
+        width: 240px;
+        margin-top: 350px;
+        left: 80px;
+    }
+    
+    .henrique{
+        position: absolute;
+        width: 330px;
+        margin-top: 400px;
+        left: 30px;
+    }
+    
+    .frontend{
+        position: absolute;
+        width: 300px;
+        margin-top: 465px;
+        left: 45px;
+    }
+
+    .css{
+        position: absolute;
+        left: 35px;
+        margin-top: -85px;
+        width: 75px;
+       
+    }
+    
+    .html{
+        position: absolute;
+        left: 136px;
+        margin-top: -85px;
+        width: 110px;
+        
+    }
+    
+    .java{
+        position: absolute;
+        left: 250px;
+        margin-top: -90px;
+        width: 118px;
+        
+    }
+      
+    .hallo{
+        width: 0px;
+        
+    }
+    
+    .for{
+        position: absolute;
+        left: 50px;
+        margin-top: 80px;
+        width: 120px;
+    
+    }
+    
+    .ma{
+        position: absolute;
+        left: 50px;
+        margin-top: 162px;
+        width: 120px;
+    }
+    
+    .cao{
+        position: absolute;
+        left: 50px;
+        margin-top: 264px;
+        width: 120px;
+    }
+
+    .iroman{
+        position: absolute;
+        width: 250px;
+        margin-top: 660px;
+        z-index: 999;
+        right: 0px;
+    }
+
+    .textoformacao{
+        position: absolute;
+        left: 30px;
+        width: 340px;
+        margin-top: 400px;
+    }
+
+    .cursolivre{
+        position: absolute;
+        left: 70px;
+        width: 170px;
+        margin-top: 580px;
+    }
+    
+    .idiomass{
+        position: absolute;
+        left: 200px;
+        margin-top: 150px;
+        width: 150px;
+
+    }
+
+    .pantera{
+        position: absolute;
+        width: 180px;
+        margin-top: -80px;
+        z-index: 999;
+        left: 0px;
+    }
+
+    .textopro{
+        position: absolute;
+        width: 220px;
+        height: 90px;
+        left: 155px;
+        margin-top: 10px;
+    }
+    
+    .textoabaixoprojeto{
+        position: absolute;
+        left: 50px;
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    .sitelista{
+        position: absolute;
+        width: 250px;
+        left: 70px;
+        margin-top: 200px;
+    }
+    
+    .sitesenac{
+        position: absolute;
+        width: 250px;
+        left: 70px;
+        margin-top: 410px;
+    }
+    
+    .sitepessoal{
+        position: absolute;
+        width: 250px;
+        left: 70px;
+        margin-top: 620px;
+    }
+
+    .hulk{
+        position: absolute;
+        width: 150px;
+        left: 230px;
+        margin-top: 1825px;
+    
+    }
+    
+    .pool{
+        position: absolute;
+        width: 180px;
+        margin-top: 1918px;
+        left: 20px;
+    
+    }
+
+    .textofooter{
+        width: 800px;
+        position: relative;
+        margin-top: -70px;
+        left: 90px;
+        
+    }
+
+    .mensagem{
+        position: absolute;
+        width: 50px;
+        left: 70px;
+        margin-top: 1860px;  
+    }
+    
+    .naotoqueaqui{
+        position: absolute;
+        width: 60px;
+        margin-top: 1800px;
+        left: 59px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 914px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 15px;
+        height: 80px; 
+    }
+
+    .header-bg{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        background-color: white;
+    }
+
+    .lista-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 310px;
+        margin-top: -58px;
+        gap: 5px;
+        font-size: 15px;
+        align-items: center;
+    }
+
+    main {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .homem-aranha{
+        position: absolute;
+        width: 200px;
+        left: 35px;
+        margin-top: 9px;
+        z-index: 999;  
+    }
+
+    .pedro{
+        position: absolute;
+        width: 240px;
+        margin-top: 350px;
+        left: 80px;
+    }
+    
+    .henrique{
+        position: absolute;
+        width: 330px;
+        margin-top: 400px;
+        left: 30px;
+    }
+    
+    .frontend{
+        position: absolute;
+        width: 300px;
+        margin-top: 465px;
+        left: 45px;
+    }
+
+    .css{
+        position: absolute;
+        left: 35px;
+        margin-top: -85px;
+        width: 75px;
+       
+    }
+    
+    .html{
+        position: absolute;
+        left: 136px;
+        margin-top: -85px;
+        width: 110px;
+        
+    }
+    
+    .java{
+        position: absolute;
+        left: 250px;
+        margin-top: -90px;
+        width: 118px;
+        
+    }
+      
+    .hallo{
+        width: 0px;
+        
+    }
+    
+    .for{
+        position: absolute;
+        left: 50px;
+        margin-top: 80px;
+        width: 120px;
+    
+    }
+    
+    .ma{
+        position: absolute;
+        left: 50px;
+        margin-top: 162px;
+        width: 120px;
+    }
+    
+    .cao{
+        position: absolute;
+        left: 50px;
+        margin-top: 264px;
+        width: 120px;
+    }
+
+    .iroman{
+        position: absolute;
+        width: 320px;
+        margin-top: 680px;
+        z-index: 999;
+        right: 0px;
+    }
+
+    .textoformacao{
+        position: absolute;
+        left: 40px;
+        width: 340px;
+        margin-top: 400px;
+    }
+
+    .cursolivre{
+        position: absolute;
+        left: 60px;
+        width: 200px;
+        margin-top: 580px;
+    }
+    
+    .idiomass{
+        position: absolute;
+        left: 200px;
+        margin-top: 150px;
+        width: 150px;
+
+    }
+
+    .pantera{
+        position: absolute;
+        width: 180px;
+        margin-top: -80px;
+        z-index: 999;
+        left: 0px;
+    }
+
+    .textopro{
+        position: absolute;
+        width: 240px;
+        height: 90px;
+        left: 155px;
+        margin-top: 10px;
+    }
+    
+    .textoabaixoprojeto{
+        position: absolute;
+        left: 50px;
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    .sitelista{
+        position: absolute;
+        width: 250px;
+        left: 80px;
+        margin-top: 200px;
+    }
+    
+    .sitesenac{
+        position: absolute;
+        width: 250px;
+        left: 80px;
+        margin-top: 410px;
+    }
+    
+    .sitepessoal{
+        position: absolute;
+        width: 250px;
+        left: 80px;
+        margin-top: 620px;
+    }
+
+    .hulk{
+        position: absolute;
+        width: 150px;
+        left: 230px;
+        margin-top: 1980px;
+    
+    }
+    
+    .pool{
+        position: absolute;
+        width: 180px;
+        margin-top: 2065px;
+        left: 20px;
+    
+    }
+
+    .textofooter{
+        width: 800px;
+        position: relative;
+        margin-top: -70px;
+        left: 90px;
+        
+    }
+
+    .mensagem{
+        position: absolute;
+        width: 50px;
+        left: 70px;
+        margin-top: 2010px;  
+    }
+    
+    .naotoqueaqui{
+        position: absolute;
+        width: 60px;
+        margin-top: 1950px;
+        left: 59px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 740px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 15px;
+        height: 80px; 
+    }
+
+    .header-bg{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        background-color: white;
+    }
+
+    .lista-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 300px;
+        margin-top: -58px;
+        gap: 5px;
+        font-size: 10px;
+        align-items: center;
+    }
+
+    main {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .homem-aranha{
+        position: absolute;
+        width: 200px;
+        left: 35px;
+        margin-top: 9px;
+        z-index: 999;  
+    }
+
+    .pedro{
+        position: absolute;
+        width: 230px;
+        margin-top: 350px;
+        left: 80px;
+    }
+    
+    .henrique{
+        position: absolute;
+        width: 320px;
+        margin-top: 400px;
+        left: 30px;
+    }
+    
+    .frontend{
+        position: absolute;
+        width: 300px;
+        margin-top: 465px;
+        left: 45px;
+    }
+
+    .css{
+        position: absolute;
+        left: 35px;
+        margin-top: -85px;
+        width: 75px;
+       
+    }
+    
+    .html{
+        position: absolute;
+        left: 136px;
+        margin-top: -85px;
+        width: 110px;
+        
+    }
+    
+    .java{
+        position: absolute;
+        left: 250px;
+        margin-top: -90px;
+        width: 118px;
+        
+    }
+      
+    .hallo{
+        width: 0px;
+        
+    }
+    
+    .for{
+        position: absolute;
+        left: 50px;
+        margin-top: 80px;
+        width: 120px;
+    
+    }
+    
+    .ma{
+        position: absolute;
+        left: 50px;
+        margin-top: 162px;
+        width: 120px;
+    }
+    
+    .cao{
+        position: absolute;
+        left: 50px;
+        margin-top: 264px;
+        width: 120px;
+    }
+
+    .iroman{
+        position: absolute;
+        width: 200px;
+        margin-top: 595px;
+        z-index: 999;
+        right: 0px;
+    }
+
+    .textoformacao{
+        position: absolute;
+        left: 40px;
+        width: 300px;
+        margin-top: 400px;
+    }
+
+    .cursolivre{
+        position: absolute;
+        left: 60px;
+        width: 150px;
+        margin-top: 520px;
+    }
+    
+    .idiomass{
+        position: absolute;
+        left: 200px;
+        margin-top: 150px;
+        width: 150px;
+
+    }
+
+    .pantera{
+        position: absolute;
+        width: 180px;
+        margin-top: -80px;
+        z-index: 999;
+        left: 0px;
+    }
+
+    .textopro{
+        position: absolute;
+        width: 198px;
+        height: 90px;
+        left: 155px;
+        margin-top: 10px;
+    }
+    
+    .textoabaixoprojeto{
+        position: absolute;
+        left: 50px;
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    .sitelista{
+        position: absolute;
+        width: 210px;
+        left: 70px;
+        margin-top: 200px;
+    }
+    
+    .sitesenac{
+        position: absolute;
+        width: 210px;
+        left: 70px;
+        margin-top: 380px;
+    }
+    
+    .sitepessoal{
+        position: absolute;
+        width: 210px;
+        left: 70px;
+        margin-top: 570px;
+    }
+
+    .hulk{
+        position: absolute;
+        width: 150px;
+        left: 210px;
+        margin-top: 1610px;
+    
+    }
+    
+    .pool{
+        position: absolute;
+        width: 180px;
+        margin-top: 1700px;
+        left: 20px;
+    
+    }
+
+    .textofooter{
+        width: 800px;
+        position: relative;
+        margin-top: -70px;
+        left: 90px;
+        
+    }
+
+    .mensagem{
+        position: absolute;
+        width: 50px;
+        left: 70px;
+        margin-top: 1650px;  
+    }
+    
+    .naotoqueaqui{
+        position: absolute;
+        width: 60px;
+        margin-top: 1590px;
+        left: 59px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 851px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 15px;
+        height: 80px; 
+    }
+
+    .header-bg{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        background-color: white;
+    }
+
+    .lista-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 300px;
+        margin-top: -58px;
+        gap: 5px;
+        font-size: 14px;
+        align-items: center;
+    }
+
+    main {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .homem-aranha{
+        position: absolute;
+        width: 200px;
+        left: 35px;
+        margin-top: 9px;
+        z-index: 999;  
+    }
+
+    .pedro{
+        position: absolute;
+        width: 230px;
+        margin-top: 350px;
+        left: 80px;
+    }
+    
+    .henrique{
+        position: absolute;
+        width: 320px;
+        margin-top: 400px;
+        left: 30px;
+    }
+    
+    .frontend{
+        position: absolute;
+        width: 300px;
+        margin-top: 465px;
+        left: 45px;
+    }
+
+    .css{
+        position: absolute;
+        left: 35px;
+        margin-top: -85px;
+        width: 75px;
+       
+    }
+    
+    .html{
+        position: absolute;
+        left: 136px;
+        margin-top: -85px;
+        width: 110px;
+        
+    }
+    
+    .java{
+        position: absolute;
+        left: 250px;
+        margin-top: -90px;
+        width: 118px;
+        
+    }
+      
+    .hallo{
+        width: 0px;
+        
+    }
+    
+    .for{
+        position: absolute;
+        left: 50px;
+        margin-top: 80px;
+        width: 120px;
+    
+    }
+    
+    .ma{
+        position: absolute;
+        left: 50px;
+        margin-top: 162px;
+        width: 120px;
+    }
+    
+    .cao{
+        position: absolute;
+        left: 50px;
+        margin-top: 264px;
+        width: 120px;
+    }
+
+    .iroman{
+        position: absolute;
+        width: 300px;
+        margin-top: 632px;
+        z-index: 999;
+        right: 0px;
+    }
+
+    .textoformacao{
+        position: absolute;
+        left: 40px;
+        width: 300px;
+        margin-top: 400px;
+    }
+
+    .cursolivre{
+        position: absolute;
+        left: 60px;
+        width: 180px;
+        margin-top: 550px;
+    }
+    
+    .idiomass{
+        position: absolute;
+        left: 200px;
+        margin-top: 150px;
+        width: 150px;
+
+    }
+
+    .pantera{
+        position: absolute;
+        width: 180px;
+        margin-top: -80px;
+        z-index: 999;
+        left: 0px;
+    }
+
+    .textopro{
+        position: absolute;
+        width: 198px;
+        height: 90px;
+        left: 155px;
+        margin-top: 10px;
+    }
+    
+    .textoabaixoprojeto{
+        position: absolute;
+        left: 50px;
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    .sitelista{
+        position: absolute;
+        width: 240px;
+        left: 80px;
+        margin-top: 200px;
+    }
+    
+    .sitesenac{
+        position: absolute;
+        width: 240px;
+        left: 80px;
+        margin-top: 380px;
+    }
+    
+    .sitepessoal{
+        position: absolute;
+        width: 240px;
+        left: 80px;
+        margin-top: 570px;
+    }
+
+    .hulk{
+        position: absolute;
+        width: 150px;
+        left: 210px;
+        margin-top: 1850px;
+    
+    }
+    
+    .pool{
+        position: absolute;
+        width: 180px;
+        margin-top: 1935px;
+        left: 20px;
+    
+    }
+
+    .textofooter{
+        width: 800px;
+        position: relative;
+        margin-top: -70px;
+        left: 90px;
+        
+    }
+
+    .mensagem{
+        position: absolute;
+        width: 50px;
+        left: 70px;
+        margin-top: 1897px;  
+    }
+    
+    .naotoqueaqui{
+        position: absolute;
+        width: 60px;
+        margin-top: 1830px;
+        left: 59px;
+    }
+
+    
+    
+}
