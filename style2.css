@@ -2679,10 +2679,10 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding-left: 340px;
+        padding-left: 315px;
         margin-top: -60px;
         gap: 5px;
-        font-size: 16px;
+        font-size: 14px;
         align-items: center;
     }
 
@@ -2704,28 +2704,28 @@ main {
 
     .pedro{
         position: absolute;
-        width: 280px;
+        width: 260px;
         margin-top: 370px;
-        left: 100px;
+        left: 80px;
     }
     
     .henrique{
         position: absolute;
-        width: 380px;
+        width: 360px;
         margin-top: 430px;
-        left: 50px;
+        left: 30px;
     }
     
     .frontend{
         position: absolute;
-        width: 380px;
+        width: 350px;
         margin-top: 490px;
-        left: 50px;
+        left: 33px;
     }
 
     .css{
         position: absolute;
-        left: 35px;
+        left: 25px;
         margin-top: -85px;
         width: 90px;
        
@@ -2733,7 +2733,7 @@ main {
     
     .html{
         position: absolute;
-        left: 164px;
+        left: 140px;
         margin-top: -85px;
         width: 130px;
         
@@ -2741,7 +2741,7 @@ main {
     
     .java{
         position: absolute;
-        left: 310px;
+        left: 275px;
         margin-top: -91px;
         width: 140px;
         
@@ -2776,37 +2776,37 @@ main {
 
     .iroman{
         position: absolute;
-        width: 300px;
-        margin-top: 633px;
+        width: 270px;
+        margin-top: 653px;
         z-index: 999;
-        right: 0px;
+        right: 63px;
     }
 
     .textoformacao{
         position: absolute;
-        left: 60px;
+        left: 40px;
         width: 350px;
         margin-top: 400px;
     }
 
     .cursolivre{
         position: absolute;
-        left: 80px;
-        width: 200px;
-        margin-top: 550px;
+        left: 50px;
+        width: 170px;
+        margin-top: 570px;
     }
     
     .idiomass{
         position: absolute;
         left: 220px;
         margin-top: 150px;
-        width: 200px;
+        width: 170px;
 
     }
 
     .pantera{
         position: absolute;
-        width: 250px;
+        width: 230px;
         margin-top: -80px;
         z-index: 999;
         left: 0px;
@@ -2814,44 +2814,44 @@ main {
 
     .textopro{
         position: absolute;
-        width: 270px;
+        width: 250px;
         height: 90px;
-        left: 180px;
+        left: 160px;
         margin-top: 10px;
     }
     
     .textoabaixoprojeto{
         position: absolute;
         left: 185px;
-        width: 265px;
+        width: 220px;
         margin-top: 100px;
     }
 
     .sitelista{
         position: absolute;
         width: 300px;
-        left: 86px;
+        left: 60px;
         margin-top: 155px;
     }
     
     .sitesenac{
         position: absolute;
         width: 300px;
-        left: 86px;
+        left: 60px;
         margin-top: 390px;
     }
     
     .sitepessoal{
         position: absolute;
         width: 300px;
-        left: 86px;
+        left: 60px;
         margin-top: 620px;
     }
 
     .hulk{
         position: absolute;
         width: 150px;
-        left: 320px;
+        left: 240px;
         margin-top: 1870px;
     
     }
